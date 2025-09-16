@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoderHub.run</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="Multimedia/video.mp4" type="video/mp4">
+    </video>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+                <img src="Multimedia/logo.webp" alt="Logo" class="logo-image">
+                <span>CoderHub.run</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <i class="bi bi-menu-up"></i>
+            </button>
+            <div id="nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero text-center">
+        <div class="glow"></div>
+        <div class="container position-relative" style="z-index:1">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-7 mx-auto">
+                    <span class="badge bg-primary bg-opacity-25 text-primary rounded-pill px-3 py-2 mb-3">
+                        <i class="bi bi-stars"></i> Innovación & Confianza
+                    </span>
+                    <h1 class="display-5 fw-bold animate__animated animate__fadeInUp section-title">
+                        Transformamos ideas en código
+                    </h1>
+                    <p class="lead mt-3 mb-4 text-innovacion">
+                        Del concepto a la innovación digital. Sitios web, apps y consultoría de alto impacto.
+                    </p>
+                    <p class="typing" data-text>_ CoderHub.run — Desarrollo a tu medida _</p>
+                    <div class="d-flex gap-3 justify-content-center mt-4">
+                        <a href="#contact" class="btn btn-primary btn-lg px-4 btn-cta">🚀 Contáctanos</a>
+                        <a href="#portfolio" class="btn btn-outline-light btn-lg px-4">Ver proyectos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-5 py-lg-6">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6">
+                    <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1600&auto=format&fit=crop"
+                                    class="d-block w-100 rounded-4 shadow" alt="Imagen 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://nuc.edu/wp-content/uploads/2024/12/blog-59-desarrollador-de-software.jpg"
+                                    class="d-block w-100 rounded-4 shadow" alt="Imagen 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://res.cloudinary.com/duonnzqzi/image/upload/v1713536229/it_development_team_working_in_office_2021_09_24_04_17_40_utc_min_1024x683_e9d6495cbc.jpg"
+                                    class="d-block w-100 rounded-4 shadow" alt="Imagen 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-3 section-title">Nosotros</h2>
+                    <p class="text-secondary">CoderHub.run nació en 2020 como un laboratorio de innovación. Ayudamos a
+                        compañías a convertirse en negocios digitales a través de software funcional, seguro y
+                        escalable.</p>
+
+                    <div class="row g-3 mt-2">
+                        <div class="col-12 col-md-4">
+                            <div class="value-card p-3 rounded-4 h-100">
+                                <div class="fs-3">🎯</div>
+                                <h6 class="mt-2 mb-1">Misión</h6>
+                                <p class="mb-0 small muted">Impulsar negocios con tecnología centrada en el usuario.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="value-card p-3 rounded-4 h-100">
+                                <div class="fs-3">👁️</div>
+                                <h6 class="mt-2 mb-1">Visión</h6>
+                                <p class="mb-0 small muted">Ser referente latino en desarrollo ágil y de calidad.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="value-card p-3 rounded-4 h-100">
+                                <div class="fs-3">💙</div>
+                                <h6 class="mt-2 mb-1">Valores</h6>
+                                <p class="mb-0 small muted">Transparencia, excelencia y aprendizaje continuo.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <h6 class="text-uppercase text-secondary">Equipo</h6>
+                        <div class="team-members d-flex">
+                            <div class="team-member">
+                                <div class="value-card p-3 rounded-4 h-100">
+                                    <img class="rounded-circle" width="48" height="48"
+                                        src="https://i.pravatar.cc/96?img=5" alt="Ana" />
+                                    <div>
+                                        <strong>Ana López</strong>
+                                        <div class="small muted">Tech Lead</div>
+                                        <p class="small text-muted">Líder,con experiencia en software escalable y
+                                            gestión de equipos.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-member">
+                                <div class="value-card p-3 rounded-4 h-100">
+                                    <img class="rounded-circle" width="48" height="48"
+                                        src="https://i.pravatar.cc/96?img=12" alt="Carlos" />
+                                    <div>
+                                        <strong>Carlos Pérez</strong>
+                                        <div class="small muted">UI/UX Designer</div>
+                                        <p class="small text-muted">Diseñador,con enfoque en experiencia de usuario y
+                                            diseño intuitivo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-member">
+                                <div class="value-card p-3 rounded-4 h-100">
+                                    <img class="rounded-circle" width="48" height="48"
+                                        src="https://i.pravatar.cc/96?img=25" alt="María" />
+                                    <div>
+                                        <strong>María Gómez</strong>
+                                        <div class="small muted">Full‑stack Dev</div>
+                                        <p class="small text-muted">Desarrolladora, con experiencia en front-end y
+                                            back-end.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <aside id="services" class="py-5 bg-body-tertiary">
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row align-items-lg-end justify-content-between mb-4">
+                <div>
+                    <h2 class="fw-bold section-title mb-2">Servicios</h2>
+                    <p class="text-secondary mb-0">Soluciones a la medida con calidad y performance.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="service-card p-4 rounded-4 h-100">
+                        <div class="fs-1 mb-3"><i class="bi bi-window-sidebar"></i></div>
+                        <h5>Desarrollo Web</h5>
+                        <p class="muted">Sitios y plataformas escalables con stack moderno.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="service-card p-4 rounded-4 h-100">
+                        <div class="fs-1 mb-3"><i class="bi bi-phone"></i></div>
+                        <h5>Apps Móviles</h5>
+                        <p class="muted">Experiencias nativas y multiplataforma.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="service-card p-4 rounded-4 h-100">
+                        <div class="fs-1 mb-3"><i class="bi bi-graph-up"></i></div>
+                        <h5>Consultoría</h5>
+                        <p class="muted">Arquitectura, performance y estrategia digital.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="service-card p-4 rounded-4 h-100">
+                        <div class="fs-1 mb-3"><i class="bi bi-shield-lock"></i></div>
+                        <h5>Soporte & Seguridad</h5>
+                        <p class="muted">Monitoreo, hardening y respuesta a incidentes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row align-items-lg-end justify-content-between mb-4">
+                <div>
+                    <h2 class="fw-bold section-title mb-2">Portafolio</h2>
+                    <p class="text-secondary mb-0">Proyectos colombianos que destacan en el mundo digital.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <article class="project">
+                        <span class="badge text-bg-primary">Turismo</span>
+                        <img class="w-100"
+                            src="https://i.ytimg.com/vi/gwPm0Greq6o/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAl0kzronCTgIC2_jipOlyI0o6QxQ"
+                            alt="Plataforma Turismo Colombia" />
+                        <div class="p-3">
+                            <h6 class="mb-1">Turismo en Colombia</h6>
+                            <p class="small muted mb-2">Plataforma digital para promover el turismo en Colombia con
+                                recorridos virtuales.</p>
+                            <a href="https://www.example.com" class="link-primary small" target="_blank">Ver más</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <article class="project">
+                        <span class="badge text-bg-primary">eCommerce</span>
+                        <img class="w-70"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwgefE3-SS7mm_-A3yYzv0vYJvvlRJnrB4-ecPjcq0P_KNhP3bdWhOwm485L1b65fAkBA&usqp=CAU"
+                            alt="eCommerce Colombia" />
+                        <div class="p-3">
+                            <h6 class="mb-1">Productos Colombianos</h6>
+                            <p class="small muted mb-2">Tienda online para la venta de productos artesanales
+                                colombianos.</p>
+                            <a href="https://www.example.com" class="link-primary small" target="_blank">Ver más</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <article class="project">
+                        <span class="badge text-bg-primary">App</span>
+                        <img class="w-100"
+                            src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/PZJ4LABRFZFE7P3E6J5YANANDA.jpg"
+                            alt="App Transporte Bogotá" />
+                        <div class="p-3">
+                            <h6 class="mb-1">Transporte Público Bogotá</h6>
+                            <p class="small muted mb-2">Aplicación móvil para consultar rutas y tiempos de espera en el
+                                transporte público de Bogotá.</p>
+                            <a href="https://www.example.com" class="link-primary small" target="_blank">Ver más</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <article class="project">
+                        <span class="badge text-bg-primary">Educación</span>
+                        <img class="w-100"
+                            src="https://a.storyblok.com/f/160385/a3fe167104/plataforma_educativa.png/m/?w=256&q=100"
+                            alt="Plataforma de Educación Online" />
+                        <div class="p-3">
+                            <h6 class="mb-1">Educación Online en Colombia</h6>
+                            <p class="small muted mb-2">Plataforma educativa digital que conecta a estudiantes y
+                                docentes en todo el país.</p>
+                            <a href="https://www.example.com" class="link-primary small" target="_blank">Ver más</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-5 bg-body-tertiary">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold section-title mb-2">Contacto</h2>
+                    <p class="text-secondary mb-4">Cuéntanos sobre tu proyecto. Te responderemos pronto.</p>
+                    <div id="successMessage" class="alert alert-success d-none" role="alertdialog">
+                        ¡Gracias por tu mensaje! Pronto te responderemos.
+                    </div>
+                    <form id="contactForm" class="needs-validation" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="name" required />
+                                <div class="invalid-feedback">Este campo es obligatorio.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Correo</label>
+                                <input type="email" class="form-control" id="email" required />
+                                <div class="invalid-feedback">Ingresa un correo válido.</div>
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Asunto</label>
+                                <input type="text" class="form-control" id="subject" required />
+                                <div class="invalid-feedback">Este campo es obligatorio.</div>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                                <div class="invalid-feedback">Cuéntanos en qué podemos ayudarte.</div>
+                            </div>
+                            <div class="col-12 d-grid d-sm-flex gap-2">
+                                <button class="btn btn-primary px-4" type="submit"><i class="bi bi-send"></i>
+                                    Enviar</button>
+                                <button class="btn btn-outline-secondary px-4" type="reset"><i class="bi bi-eraser"></i>
+                                    Limpiar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow">
+                        <iframe src="https://www.google.com/maps?q=Florencia,+Caquetá&t=k&z=12&output=embed&iwloc=near"
+                            title="Ubicación Caquetá" class="ratio ratio-16x9 rounded-4 overflow-hidden shadow"
+                            loading="lazy">
+                        </iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script>
+        (function () {
+            'use strict'
+            var forms = document.querySelectorAll('.needs-validation');
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        } else {
+                            document.getElementById("successMessage").classList.remove("d-none");
+                            form.reset();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+        })();
+    </script>
+
+<footer class="py-4">
+    <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center gap-3">
+        <div class="small muted">
+            <a href="https://www.coderhub.run" target="_blank">© <span id="year"></span> CoderHub.run — Todos los derechos reservados</a>
+        </div>
+        
+        <div class="mt-3 small">
+            <a href="https://wa.me/+573000000000" class="me-3" target="_blank">
+                <i class="bi bi-telephone"></i> +57 300 000 0000
+            </a>&nbsp;•&nbsp;
+            <a href="https://outlook.live.com/mail/0/deeplink/compose?to=hola@coderhub.run" target="_blank">
+                <i class="bi bi-envelope"></i> hola@coderhub.run
+            </a>
+        </div>
+
+        <div class="mt-2 small">
+            <a href="https://www.linkedin.com" class="me-3" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com" class="me-3" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
